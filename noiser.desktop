@@ -1,0 +1,24 @@
+[Desktop Entry]
+Categories=Script;Automatisation;bash;noise;recording;
+Comment[fr_FR]=Record neighbor noise
+Comment=Record neighbor noise
+Exec=konsole --new-tab -p LocalTabTitleFormat="NoiseR" -p Icon="noise" -e "~/bin/perso/noiser/noiser.sh"
+GenericName[fr_FR]=Noise recorder
+GenericName=Noise recorder
+Icon=/home/olivier/bin/perso/noiser/noiser.png
+Keywords=Script;Automatisation;bash;noise;recording;
+MimeType=
+Name[fr_FR]=NoiseR
+Name=NoiseR
+Path=/home/olivier/bin/perso/noiser
+StartupNotify=true
+StartupWMClass=noiserecorder
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+WM_CLASS=noiserecorder
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
